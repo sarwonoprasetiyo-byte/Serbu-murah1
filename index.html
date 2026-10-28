@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Temukan barang menarik dengan harga hemat di Serbu Murah.">
+  <title>Serbu Murah — Belanja Hemat</title>
+  <link rel="stylesheet" href="styles.css">
+</head><link rel="stylesheet" href="styles.css">
+<body>
+  <header class="site-header">
+    <a class="brand" href="#" aria-label="Serbu Murah beranda">
+      <span class="brand-icon">🛍️</span>
+      <span>serbu<span class="brand-accent">murah</span></span>
+    </a>
+    <a class="header-link" href="#produk">Lihat Produk <span aria-hidden="true">↓</span></a>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">PILIHAN HEMAT SETIAP HARI</p>
+        <h1>Barang menarik,<br><span>harga bersahabat.</span></h1>
+        <p class="hero-text">Temukan pilihan produk favoritmu. Klik produk untuk melihat detail dan belanja melalui Shopee.</p>
+        <a class="primary-button" href="#produk">Jelajahi Produk <span aria-hidden="true">→</span></a>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <div class="hero-circle"></div>
+        <div class="hero-bag">🛍️</div>
+        <div class="hero-tag">HARGA<br>HEMAT!</div>
+        <div class="spark spark-one">✦</div>
+        <div class="spark spark-two">✧</div>
+      </div>
+    </section>
+
+    <section class="products-section" id="produk">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">KURASI PILIHAN</p>
+          <h2>Produk pilihan</h2>
+        </div>
+        <p class="product-count" id="productCount">Pilihan untuk kamu</p>
+      </div>
+
+      <div class="search-wrap">
+        <span aria-hidden="true">⌕</span>
+        <input id="searchInput" type="search" placeholder="Cari nama produk..." aria-label="Cari produk">
+      </div>
+
+      <div class="product-grid" id="productGrid" aria-live="polite"></div>
+      <p class="empty-state" id="emptyState" hidden>Produk tidak ditemukan. Coba kata kunci lain.</p>
+    </section>
+
+    <section class="affiliate-note">
+      <span class="note-icon">💡</span>
+      <div>
+        <h3>Belanja melalui tautan pilihan</h3>
+        <p>Harga dan ketersediaan produk dapat berubah. Sebelum membeli, periksa detailnya di halaman Shopee.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="brand footer-brand" href="#">🛍️ serm<span class="brand-accent">urah</span></a>
+    <p>© <span id="year"></span> Serbu Murah. Pilihan hemat untuk sehari-hari.</p>
+    <p class="disclosure">Sebagian tautan dapat berupa tautan afiliasi. Kami mungkin memperoleh komisi jika Anda membeli melalui tautan tersebut, tanpa biaya tambahan bagi Anda.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body><script src="script.js"></script>
+</html>
